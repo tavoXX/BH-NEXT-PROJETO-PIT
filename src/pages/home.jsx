@@ -1,12 +1,11 @@
 // src/pages/Home.jsx
 import React from 'react';
-import Header from '../components/header';
-import HeroSection from '../components/herosection';
-import FeaturedProducts from '../components/featuredproducts';
-import Footer from '../components/footer';
+import Header from '../components/Header';
+import FeaturedProducts from '../components/Featuredproducts';
+import Footer from '../components/Footer';
 import '../styles/Home.css'; // Certifique-se de criar este arquivo para estilizar a página Home
 
-const home = () => {
+const Home = () => {
   return (
     <div className="home">
       <Header />
@@ -17,4 +16,4 @@ const home = () => {
   );
 };
 
-export default home;
+export default Home;

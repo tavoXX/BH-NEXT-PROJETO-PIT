@@ -2,7 +2,7 @@
 import React from 'react';
 import './FeaturedProducts.css'; // Certifique-se de criar este arquivo para estilizar os FeaturedProducts
 
-const featuredProducts = () => {
+const FeaturedProducts = () => {
   // Aqui você pode adicionar a lógica para buscar produtos em destaque
   return (
     <section className="featured-products">
@@ -26,4 +26,4 @@ const featuredProducts = () => {
   );
 };
 
-export default featuredProducts;
+export default FeaturedProducts;

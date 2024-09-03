@@ -2,7 +2,7 @@
 import React from 'react';
 import './Footer.css'; // Certifique-se de criar este arquivo para estilizar o Footer
 
-const footer = () => {
+const Footer = () => {
   return (
     <footer className="footer">
       <p>&copy; 2024 Minha Loja. Todos os direitos reservados.</p>

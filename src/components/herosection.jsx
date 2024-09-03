@@ -2,7 +2,7 @@
 import React from 'react';
 import './HeroSection.css'; // Certifique-se de criar este arquivo para estilizar a HeroSection
 
-const herosection = () => {
+const Herosection = () => {
   return (
     <section className="hero">
       <h1>Bem-vindo à Minha Loja</h1>
@@ -12,4 +12,4 @@ const herosection = () => {
   );
 };
 
-export default herosection;
+export default Herosection;

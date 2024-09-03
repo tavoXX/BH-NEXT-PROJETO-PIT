@@ -1,8 +1,8 @@
 // src/components/Header.jsx
 import React from 'react';
-import './header.css'; // Certifique-se de criar este arquivo para estilizar o Header
+import './Header.css'; // Certifique-se de criar este arquivo para estilizar o Header
 
-const header = () => {
+const Header = () => {
   return (
     <header className="header">
       <div className="logo">Minha Loja</div>
@@ -16,4 +16,4 @@ const header = () => {
   );
 };
 
-export default header;
+export default Header;

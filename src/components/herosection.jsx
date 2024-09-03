@@ -1,6 +1,6 @@
 // src/components/HeroSection.jsx
 import React from 'react';
-import './HeroSection.css'; // Certifique-se de criar este arquivo para estilizar a HeroSection
+import '../styles/HeroSection.css'; // Certifique-se de criar este arquivo para estilizar a HeroSection
 
 const Herosection = () => {
   return (

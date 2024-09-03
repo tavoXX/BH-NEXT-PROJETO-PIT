@@ -1,6 +1,6 @@
 // src/components/Footer.jsx
 import React from 'react';
-import './Footer.css'; // Certifique-se de criar este arquivo para estilizar o Footer
+import '../styles/Footer.css'; // Certifique-se de criar este arquivo para estilizar o Footer
 
 const Footer = () => {
   return (

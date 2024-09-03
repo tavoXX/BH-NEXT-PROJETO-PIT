@@ -1,6 +1,6 @@
 // src/components/FeaturedProducts.jsx
 import React from 'react';
-import './FeaturedProducts.css'; // Certifique-se de criar este arquivo para estilizar os FeaturedProducts
+import '../styles/FeaturedProducts.css'; // Certifique-se de criar este arquivo para estilizar os FeaturedProducts
 
 const FeaturedProducts = () => {
   // Aqui você pode adicionar a lógica para buscar produtos em destaque

@@ -1,0 +1,4 @@
+Para postar 
+Git commit -a -m ""
+Git push
+npm run deploy

@@ -1,11 +1,7 @@
 Para postar 
-Git commit -a -m ""
-Git push
-npm run deploy
-
-
-Para postar um arquivo
 git status
 git add src/nome-do-arquivo.txt
-git commit -m "Adiciona o arquivo .txt na pasta src"
-git push origin main
+Git commit -a -m "mensagem"
+Git push 
+npm run predeploy
+npm run deploy

@@ -1,7 +1,9 @@
 Para postar 
-git status
-git add src/nome-do-arquivo.txt
-Git commit -a -m "mensagem"
-Git push 
-npm run predeploy
-npm run deploy
+
+
+git status (para ver se está conectado)
+git add src/nome-do-arquivo.txt (quando modificar apenas 1 arquivo, usa esse comando. Se for mais de 1 use " git add .")
+Git commit -a -m "mensagem"  (Manda para uma nuvem e coloca no git hub, dentro da aspas, o que você alterou.)
+Git push origin main (Manda para o projeto principal no git hub)
+npm run predeploy (Executa mas nao abre, apenas vê se deu erro ou não)
+npm run deploy (executa no pages. https://tavoxx.github.io/BH-NEXT-PROJETO-PIT/   )
